@@ -1,0 +1,1 @@
+C:\Users\Cookie\source\repos\BlocNoteSol\BlocNote\BlocNote.csproj;x64

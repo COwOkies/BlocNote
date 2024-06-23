@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlocNote.MainPage"
+             Shell.NavBarIsVisible="False">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+            <Grid ColumnDefinitions="*, auto, auto" RowDefinitions="*">
+                <SearchBar Placeholder="Search notes" 
+                           Text="{Binding SearchText}" 
+                           SearchCommand="{Binding SearchCommand}"
+                           ToolTipProperties.Text="Search bar for notes"/>
+                <Button Grid.Column="1"
+                        Text="+" 
+                        SemanticProperties.Hint="Add a new note to this page."
+                        Clicked="NewNote"
+                        HorizontalOptions="End"
+                        ToolTipProperties.Text="Add a note"/>
+                <Button Grid.Column="2"
+                        Text="++" 
+                        SemanticProperties.Hint="Add a new note to this page."  
+                        Clicked="NewNoteFast"
+                        HorizontalOptions="End"
+                        ToolTipProperties.Text="Quickly add a note"/>
+            </Grid>
+
+            <ListView ItemsSource="{Binding FilteredNotes}" Grid.Row="1">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*, auto, auto" RowDefinitions="*">
+                                <Border Grid.Column="0"
+                                        Stroke="Orange"
+                                        StrokeThickness="4"
+                                        Margin="0, 4"
+                                        Padding="8,4"
+                                        BackgroundColor="GhostWhite">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="30, 30, 30, 0"/>
+                                    </Border.StrokeShape>
+
+                                    <StackLayout Spacing="5"
+                                                 ToolTipProperties.Text="{Binding DateUpdate}">
+
+                                        <Label Text="{Binding Title}"
+                                               FontSize="Medium"
+                                               FontAttributes="Bold"
+                                               ToolTipProperties.Text="Title of the note"/>
+                                        <BoxView HeightRequest="1" BackgroundColor="LightGray" HorizontalOptions="FillAndExpand"/>
+                                        <Label Text="{Binding Text}"
+                                               FontSize="Small"
+                                               ToolTipProperties.Text="Content of the note"/>
+                                        <BoxView HeightRequest="1" BackgroundColor="LightGray" HorizontalOptions="FillAndExpand"/>
+                                        <Label Text="{Binding Date}"
+                                               FontSize="Small"
+                                               ToolTipProperties.Text="{Binding DateUpdate, StringFormat='Date of the note &#x0a;Latest update : {0}'}"/>
+                                    </StackLayout>
+                                </Border>
+
+                                <Button Grid.Column="1"
+                                        Text="✏️"
+                                        BackgroundColor="Transparent"
+                                        Clicked="EditNote"
+                                        CommandParameter="{Binding .}" 
+                                        ToolTipProperties.Text="Update the note"/>
+
+                                <Button Grid.Column="2"
+                                        Text="🗑️"
+                                        BackgroundColor="Transparent"
+                                        Clicked="DeleteNote"
+                                        CommandParameter="{Binding .}"
+                                        ToolTipProperties.Text="Delete the note"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlocNote", "BlocNote\BlocNote.csproj", "{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlocNoteLib", "BlocNoteLib\BlocNoteLib.csproj", "{921EDF65-9C3F-4177-A131-13DC42E3FCC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{921EDF65-9C3F-4177-A131-13DC42E3FCC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921EDF65-9C3F-4177-A131-13DC42E3FCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921EDF65-9C3F-4177-A131-13DC42E3FCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921EDF65-9C3F-4177-A131-13DC42E3FCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1318E54-78C5-4147-A936-B97BD0A0187E}
+	EndGlobalSection
+EndGlobal

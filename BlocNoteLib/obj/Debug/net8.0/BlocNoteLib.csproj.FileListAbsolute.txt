@@ -1,0 +1,11 @@
+C:\Users\Cookie\source\repos\BlocNoteSol\BlocNoteLib\bin\Debug\net8.0\BlocNoteLib.deps.json
+C:\Users\Cookie\source\repos\BlocNoteSol\BlocNoteLib\bin\Debug\net8.0\BlocNoteLib.dll
+C:\Users\Cookie\source\repos\BlocNoteSol\BlocNoteLib\bin\Debug\net8.0\BlocNoteLib.pdb
+C:\Users\Cookie\source\repos\BlocNoteSol\BlocNoteLib\obj\Debug\net8.0\BlocNoteLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cookie\source\repos\BlocNoteSol\BlocNoteLib\obj\Debug\net8.0\BlocNoteLib.AssemblyInfoInputs.cache
+C:\Users\Cookie\source\repos\BlocNoteSol\BlocNoteLib\obj\Debug\net8.0\BlocNoteLib.AssemblyInfo.cs
+C:\Users\Cookie\source\repos\BlocNoteSol\BlocNoteLib\obj\Debug\net8.0\BlocNoteLib.csproj.CoreCompileInputs.cache
+C:\Users\Cookie\source\repos\BlocNoteSol\BlocNoteLib\obj\Debug\net8.0\BlocNoteLib.dll
+C:\Users\Cookie\source\repos\BlocNoteSol\BlocNoteLib\obj\Debug\net8.0\refint\BlocNoteLib.dll
+C:\Users\Cookie\source\repos\BlocNoteSol\BlocNoteLib\obj\Debug\net8.0\BlocNoteLib.pdb
+C:\Users\Cookie\source\repos\BlocNoteSol\BlocNoteLib\obj\Debug\net8.0\ref\BlocNoteLib.dll
