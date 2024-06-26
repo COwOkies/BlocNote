@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|c:\\users\\cookie\\source\\repos\\blocnotesol\\blocnote\\savepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|solutionrelative:blocnote\\savepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|c:\\users\\cookie\\source\\repos\\blocnotesol\\blocnote\\savepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|solutionrelative:blocnote\\savepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890FABDB-2BAB-46DF-A3E2-E5CA9C72E6EA}|DiscordLib\\DiscordLib.csproj|c:\\users\\cookie\\source\\repos\\blocnotesol\\discordlib\\discordupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890FABDB-2BAB-46DF-A3E2-E5CA9C72E6EA}|DiscordLib\\DiscordLib.csproj|solutionrelative:discordlib\\discordupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|c:\\users\\cookie\\source\\repos\\blocnotesol\\blocnote\\opennote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|solutionrelative:blocnote\\opennote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -39,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|solutionrelative:blocnote\\editnote.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|c:\\users\\cookie\\source\\repos\\blocnotesol\\blocnote\\savepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|solutionrelative:blocnote\\savepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|c:\\users\\cookie\\source\\repos\\blocnotesol\\blocnote\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|solutionrelative:blocnote\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,16 +71,8 @@
       "RelativeMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|solutionrelative:blocnote\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|c:\\users\\cookie\\source\\repos\\blocnotesol\\blocnote\\savepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|solutionrelative:blocnote\\savepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{921EDF65-9C3F-4177-A131-13DC42E3FCC4}|BlocNoteLib\\BlocNoteLib.csproj|c:\\users\\cookie\\source\\repos\\blocnotesol\\blocnotelib\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{921EDF65-9C3F-4177-A131-13DC42E3FCC4}|BlocNoteLib\\BlocNoteLib.csproj|solutionrelative:blocnotelib\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{890FABDB-2BAB-46DF-A3E2-E5CA9C72E6EA}|DiscordLib\\DiscordLib.csproj|c:\\users\\cookie\\source\\repos\\blocnotesol\\discordlib\\discordupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{890FABDB-2BAB-46DF-A3E2-E5CA9C72E6EA}|DiscordLib\\DiscordLib.csproj|solutionrelative:discordlib\\discordupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CAEAC52-1D6B-43C1-9C8E-4D6C01800958}|BlocNote\\BlocNote.csproj|c:\\users\\cookie\\source\\repos\\blocnotesol\\blocnote\\editnote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -94,74 +94,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 197,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\MainPage.xaml",
-              "RelativeDocumentMoniker": "BlocNote\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\MainPage.xaml",
-              "RelativeToolTip": "BlocNote\\MainPage.xaml",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAAFAAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T21:26:17.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OpenNote.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\OpenNote.xaml.cs",
-              "RelativeDocumentMoniker": "BlocNote\\OpenNote.xaml.cs",
-              "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\OpenNote.xaml.cs",
-              "RelativeToolTip": "BlocNote\\OpenNote.xaml.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAAAFYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T21:17:04.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "OpenNote.xaml",
               "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\OpenNote.xaml",
               "RelativeDocumentMoniker": "BlocNote\\OpenNote.xaml",
               "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\OpenNote.xaml",
               "RelativeToolTip": "BlocNote\\OpenNote.xaml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADgAAAAcAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-25T15:34:31.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "BlocNote\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\MauiProgram.cs",
-              "RelativeToolTip": "BlocNote\\MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:31:04.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "NewNote.xaml",
               "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\NewNote.xaml",
               "RelativeDocumentMoniker": "BlocNote\\NewNote.xaml",
               "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\NewNote.xaml",
               "RelativeToolTip": "BlocNote\\NewNote.xaml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAiAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAABBwB4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T22:08:35.031Z"
+              "WhenOpened": "2024-06-25T22:08:35.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ColorStringToBrushConverter.cs",
               "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\ColorStringToBrushConverter.cs",
               "RelativeDocumentMoniker": "BlocNote\\ColorStringToBrushConverter.cs",
@@ -174,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "NewNoteImage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\NewNoteImage.xaml.cs",
               "RelativeDocumentMoniker": "BlocNote\\NewNoteImage.xaml.cs",
@@ -182,11 +145,12 @@
               "RelativeToolTip": "BlocNote\\NewNoteImage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:46:25.414Z"
+              "WhenOpened": "2024-06-26T08:46:25.414Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "BlocNote\\MainPage.xaml.cs",
@@ -199,7 +163,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SavePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\SavePage.xaml",
+              "RelativeDocumentMoniker": "BlocNote\\SavePage.xaml",
+              "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\SavePage.xaml",
+              "RelativeToolTip": "BlocNote\\SavePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAD4vwsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T21:17:33.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SavePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\SavePage.xaml.cs",
+              "RelativeDocumentMoniker": "BlocNote\\SavePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\SavePage.xaml.cs",
+              "RelativeToolTip": "BlocNote\\SavePage.xaml.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAtwAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T21:17:35.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DiscordUpload.cs",
+              "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\DiscordLib\\DiscordUpload.cs",
+              "RelativeDocumentMoniker": "DiscordLib\\DiscordUpload.cs",
+              "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\DiscordLib\\DiscordUpload.cs",
+              "RelativeToolTip": "DiscordLib\\DiscordUpload.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAIAwwEIAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T22:54:15.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "BlocNote\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\MauiProgram.cs",
+              "RelativeToolTip": "BlocNote\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:31:04.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OpenNote.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\OpenNote.xaml.cs",
+              "RelativeDocumentMoniker": "BlocNote\\OpenNote.xaml.cs",
+              "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\OpenNote.xaml.cs",
+              "RelativeToolTip": "BlocNote\\OpenNote.xaml.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAIBJwFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T21:17:04.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\MainPage.xaml",
+              "RelativeDocumentMoniker": "BlocNote\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\MainPage.xaml",
+              "RelativeToolTip": "BlocNote\\MainPage.xaml",
+              "ViewState": "AQIAAB0AAAAAAAAAAIBJwFAAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T21:26:17.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "NewNote.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\NewNote.xaml.cs",
               "RelativeDocumentMoniker": "BlocNote\\NewNote.xaml.cs",
@@ -207,47 +249,25 @@
               "RelativeToolTip": "BlocNote\\NewNote.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T22:15:42.965Z"
+              "WhenOpened": "2024-06-25T22:15:42.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "EditNote.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\EditNote.xaml.cs",
               "RelativeDocumentMoniker": "BlocNote\\EditNote.xaml.cs",
               "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\EditNote.xaml.cs",
               "RelativeToolTip": "BlocNote\\EditNote.xaml.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAAAEUAAAA0AAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAIBJwEUAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T22:15:24.834Z"
+              "WhenOpened": "2024-06-25T22:15:24.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SavePage.xaml",
-              "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\SavePage.xaml",
-              "RelativeDocumentMoniker": "BlocNote\\SavePage.xaml",
-              "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\SavePage.xaml",
-              "RelativeToolTip": "BlocNote\\SavePage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T21:17:33.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SavePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\SavePage.xaml.cs",
-              "RelativeDocumentMoniker": "BlocNote\\SavePage.xaml.cs",
-              "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\SavePage.xaml.cs",
-              "RelativeToolTip": "BlocNote\\SavePage.xaml.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBAAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T21:17:35.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\AppShell.xaml",
               "RelativeDocumentMoniker": "BlocNote\\AppShell.xaml",
@@ -255,47 +275,38 @@
               "RelativeToolTip": "BlocNote\\AppShell.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T23:05:21.197Z"
+              "WhenOpened": "2024-06-25T23:05:21.197Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Styles.xaml",
               "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\Resources\\Styles\\Styles.xaml",
               "RelativeDocumentMoniker": "BlocNote\\Resources\\Styles\\Styles.xaml",
               "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\Resources\\Styles\\Styles.xaml",
               "RelativeToolTip": "BlocNote\\Resources\\Styles\\Styles.xaml",
-              "ViewState": "AQIAAHsBAAAAAAAAAIBJwI0BAACAAAAA",
+              "ViewState": "AQIAAHgBAAAAAAAAAIBZwI0BAACAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T22:54:07.003Z"
+              "WhenOpened": "2024-06-25T22:54:07.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "BlocNote.csproj",
               "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\BlocNote.csproj",
               "RelativeDocumentMoniker": "BlocNote\\BlocNote.csproj",
               "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\BlocNote.csproj",
               "RelativeToolTip": "BlocNote\\BlocNote.csproj",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAABBwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-26T08:12:56.726Z"
+              "WhenOpened": "2024-06-26T08:12:56.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DiscordUpload.cs",
-              "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\DiscordLib\\DiscordUpload.cs",
-              "RelativeDocumentMoniker": "DiscordLib\\DiscordUpload.cs",
-              "ToolTip": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\DiscordLib\\DiscordUpload.cs",
-              "RelativeToolTip": "DiscordLib\\DiscordUpload.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T22:54:15.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Colors.xaml",
               "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNote\\Resources\\Styles\\Colors.xaml",
               "RelativeDocumentMoniker": "BlocNote\\Resources\\Styles\\Colors.xaml",
@@ -303,11 +314,12 @@
               "RelativeToolTip": "BlocNote\\Resources\\Styles\\Colors.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAABBwAwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T22:54:05.431Z"
+              "WhenOpened": "2024-06-25T22:54:05.431Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Note.cs",
               "DocumentMoniker": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNoteLib\\Note.cs",
               "RelativeDocumentMoniker": "BlocNoteLib\\Note.cs",
@@ -315,7 +327,8 @@
               "RelativeToolTip": "BlocNoteLib\\Note.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAkwCwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T21:39:18.517Z"
+              "WhenOpened": "2024-06-25T21:39:18.517Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
