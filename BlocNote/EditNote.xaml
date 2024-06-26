@@ -4,21 +4,39 @@
              x:Class="BlocNote.EditNote"
              Title="EditNote"
              Shell.NavBarIsVisible="False">
-    <VerticalStackLayout>
-        <VerticalStackLayout Spacing="20">
-            <Label Text="Title"></Label>
+    <Grid RowDefinitions="*,auto" ColumnDefinitions="*">
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Spacing="20" Padding="20,20,20,0">
+            <Label Text="✏ Edit note" FontSize="Large" HorizontalOptions="Center"></Label>
+            <BoxView HeightRequest="3" BackgroundColor="orange" HorizontalOptions="FillAndExpand"/>
+                <Label Text="📔 Title :" FontSize="Medium" ></Label>
             <Entry Text="{Binding NoteTitle}"
-                   Placeholder="New Title"></Entry>
+                   Placeholder="New Title"
+                   ></Entry>
 
-            <Label Text="Text"></Label>
+                <Label Text="📝 Text :" FontSize="Medium"></Label>
             <Editor Text="{Binding NoteText}"
                    Placeholder="New text"
-                   AutoSize="TextChanges"></Editor>
+                   AutoSize="TextChanges"
+                   ></Editor>
 
-            <Button
-            Text="Update"
-            Clicked="Edit"
-            />
-        </VerticalStackLayout>
-    </VerticalStackLayout>
+                <Grid ColumnDefinitions="auto,*" RowDefinitions="*" ColumnSpacing="20">
+                    <Label Text="🎨 Select a color : " FontSize="Medium"></Label>
+                    <Picker x:Name="picker"
+            Grid.Column="1"
+        ItemsSource="{Binding Mgr.ColorList}"
+        SelectedItem="{Binding Color}">
+                    </Picker>
+                </Grid>
+            </VerticalStackLayout>
+    </ScrollView>
+
+    <Button
+        Grid.Row="1"
+        Text="Edit"
+            Margin="20"
+        HorizontalOptions="FillAndExpand"
+        Clicked="Edit"
+        />
+    </Grid>
 </ContentPage>

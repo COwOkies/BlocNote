@@ -36,6 +36,17 @@ public partial class EditNote : ContentPage, INotifyPropertyChanged
         }
     }
 
+    private string color;
+    public string Color
+    {
+        get => color;
+        set
+        {
+            color = value;
+            OnPropertyChanged();
+        }
+    }
+
     private int NoteIndex;
 
     public EditNote(int noteIndex)
@@ -46,6 +57,7 @@ public partial class EditNote : ContentPage, INotifyPropertyChanged
         var note = (Application.Current as App).Manager.Notes[NoteIndex];
         NoteTitle = note.Title;
         NoteText = note.Text;
+        Color = note.Color;
     }
 
     async void Edit(object sender, EventArgs e)
@@ -53,6 +65,7 @@ public partial class EditNote : ContentPage, INotifyPropertyChanged
         Mgr.notes[NoteIndex].Title = noteTitle;
         Mgr.notes[NoteIndex].Text = noteText;
         Mgr.notes[NoteIndex].DateUpdate = DateTime.Now;
+        Mgr.notes[NoteIndex].Color = color;
 
         MessagingCenter.Send(this, "SaveAndFilter");
 

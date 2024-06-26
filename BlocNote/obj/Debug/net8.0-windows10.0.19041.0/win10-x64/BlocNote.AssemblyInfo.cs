@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlocNote")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+48c0cecfa9b7cb94bea03ae205bd52bef75a962e")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlocNote")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlocNote")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

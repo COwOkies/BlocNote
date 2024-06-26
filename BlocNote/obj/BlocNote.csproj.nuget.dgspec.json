@@ -49,6 +49,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Runtime.WindowsRuntime.UI.Xaml": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Windows.Extensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -89,7 +99,6 @@
         ],
         "originalTargetFrameworks": [
           "net8.0-android",
-          "net8.0-ios",
           "net8.0-maccatalyst",
           "net8.0-windows10.0.19041.0"
         ],
@@ -104,14 +113,9 @@
             "projectReferences": {
               "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNoteLib\\BlocNoteLib.csproj": {
                 "projectPath": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNoteLib\\BlocNoteLib.csproj"
-              }
-            }
-          },
-          "net8.0-ios17.2": {
-            "targetAlias": "net8.0-ios",
-            "projectReferences": {
-              "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNoteLib\\BlocNoteLib.csproj": {
-                "projectPath": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNoteLib\\BlocNoteLib.csproj"
+              },
+              "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\DiscordLib\\DiscordLib.csproj": {
+                "projectPath": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\DiscordLib\\DiscordLib.csproj"
               }
             }
           },
@@ -120,6 +124,9 @@
             "projectReferences": {
               "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNoteLib\\BlocNoteLib.csproj": {
                 "projectPath": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNoteLib\\BlocNoteLib.csproj"
+              },
+              "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\DiscordLib\\DiscordLib.csproj": {
+                "projectPath": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\DiscordLib\\DiscordLib.csproj"
               }
             }
           },
@@ -128,6 +135,9 @@
             "projectReferences": {
               "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNoteLib\\BlocNoteLib.csproj": {
                 "projectPath": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNoteLib\\BlocNoteLib.csproj"
+              },
+              "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\DiscordLib\\DiscordLib.csproj": {
+                "projectPath": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\DiscordLib\\DiscordLib.csproj"
               }
             }
           }
@@ -179,49 +189,6 @@
           "warn": true,
           "frameworkReferences": {
             "Microsoft.Android": {
-              "privateAssets": "all"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
-        },
-        "net8.0-ios17.2": {
-          "targetAlias": "net8.0-ios",
-          "dependencies": {
-            "Microsoft.Extensions.Logging.Debug": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.Maui.Controls": {
-              "target": "Package",
-              "version": "[8.0.7, )"
-            },
-            "Microsoft.Maui.Controls.Compatibility": {
-              "target": "Package",
-              "version": "[8.0.7, )"
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.3, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.iOS": {
               "privateAssets": "all"
             },
             "Microsoft.NETCore.App": {
@@ -331,14 +298,82 @@
         "android-x86": {
           "#import": []
         },
-        "iossimulator-x64": {
-          "#import": []
-        },
         "maccatalyst-x64": {
           "#import": []
         },
         "win10-x64": {
           "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\DiscordLib\\DiscordLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\DiscordLib\\DiscordLib.csproj",
+        "projectName": "DiscordLib",
+        "projectPath": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\DiscordLib\\DiscordLib.csproj",
+        "packagesPath": "C:\\Users\\Cookie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\DiscordLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Cookie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[3.15.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

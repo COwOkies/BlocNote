@@ -9,7 +9,9 @@ public partial class App : Application
     public App()
     {
         InitializeComponent();
-        Manager.Notes = Manager.LoadResult();
+        Manager.Notes = Manager.LoadNotes();
+        (string, string) creds = Manager.LoadCreds();
+        Manager.Creds = new Credentials(creds.Item1,creds.Item2);
         MainPage = new AppShell();
     }
 }

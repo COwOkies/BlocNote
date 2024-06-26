@@ -1,0 +1,13 @@
+C:\Users\Cookie\source\repos\BlocNoteSol\DiscordLib\bin\Debug\net8.0\DiscordLib.deps.json
+C:\Users\Cookie\source\repos\BlocNoteSol\DiscordLib\bin\Debug\net8.0\DiscordLib.dll
+C:\Users\Cookie\source\repos\BlocNoteSol\DiscordLib\bin\Debug\net8.0\DiscordLib.pdb
+C:\Users\Cookie\source\repos\BlocNoteSol\DiscordLib\obj\Debug\net8.0\DiscordLib.csproj.AssemblyReference.cache
+C:\Users\Cookie\source\repos\BlocNoteSol\DiscordLib\obj\Debug\net8.0\DiscordLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cookie\source\repos\BlocNoteSol\DiscordLib\obj\Debug\net8.0\DiscordLib.AssemblyInfoInputs.cache
+C:\Users\Cookie\source\repos\BlocNoteSol\DiscordLib\obj\Debug\net8.0\DiscordLib.AssemblyInfo.cs
+C:\Users\Cookie\source\repos\BlocNoteSol\DiscordLib\obj\Debug\net8.0\DiscordLib.csproj.CoreCompileInputs.cache
+C:\Users\Cookie\source\repos\BlocNoteSol\DiscordLib\obj\Debug\net8.0\DiscordLib.sourcelink.json
+C:\Users\Cookie\source\repos\BlocNoteSol\DiscordLib\obj\Debug\net8.0\DiscordLib.dll
+C:\Users\Cookie\source\repos\BlocNoteSol\DiscordLib\obj\Debug\net8.0\refint\DiscordLib.dll
+C:\Users\Cookie\source\repos\BlocNoteSol\DiscordLib\obj\Debug\net8.0\DiscordLib.pdb
+C:\Users\Cookie\source\repos\BlocNoteSol\DiscordLib\obj\Debug\net8.0\ref\DiscordLib.dll

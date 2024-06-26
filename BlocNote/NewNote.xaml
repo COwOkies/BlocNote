@@ -4,19 +4,40 @@
              x:Class="BlocNote.NewNote"
              Title="NewNote"
              Shell.NavBarIsVisible="False">
-    <VerticalStackLayout Spacing="20">
-        <Label Text="Title"></Label>
-        <Entry Text="{Binding NoteTitle}"
-               Placeholder="Title"></Entry>
+    <Grid RowDefinitions="*,auto" ColumnDefinitions="*">
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Spacing="20" Padding="20,20,20,0">
+                <Label Text="➕ Create note" FontSize="Large" HorizontalOptions="Center"></Label>
+                <BoxView HeightRequest="3" BackgroundColor="#95be32" HorizontalOptions="FillAndExpand"/>
+                <Label Text="📔 Title :" FontSize="Medium" ></Label>
+                <Entry Text="{Binding NoteTitle}"
+                    Placeholder="Title"
+                ></Entry>
 
-        <Label Text="Text"></Label>
-        <Editor Text="{Binding NoteText}"
-               Placeholder="Text"
-               AutoSize="TextChanges"></Editor>
-        
+                <Label Text="📝 Text :" FontSize="Medium"></Label>
+                <Editor Text="{Binding NoteText}"
+                    Placeholder="Text"
+                    AutoSize="TextChanges"
+                ></Editor>
+
+                <Grid ColumnDefinitions="auto,*" RowDefinitions="*" ColumnSpacing="20">
+                    <Label Text="🎨 Select a color : " FontSize="Medium"></Label>
+                    <Picker x:Name="picker"
+                            Grid.Column="1"
+                        ItemsSource="{Binding Mgr.ColorList}"
+                        TextColor="{Binding Color}">
+                    </Picker>
+                </Grid>
+            </VerticalStackLayout>
+        </ScrollView>
+
         <Button
-            Text="Add"
+            Grid.Row="1"
+            Text="Create"
+            BackgroundColor="#95be32"
             Clicked="AddNote"
-            />
-    </VerticalStackLayout>
+            Margin="20"
+            HorizontalOptions="FillAndExpand"
+        />
+    </Grid>
 </ContentPage>

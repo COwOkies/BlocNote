@@ -1,0 +1,115 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlocNote.OpenNote"
+             Title="OpenNote"
+             xmlns:local="clr-namespace:Converter"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="{AppThemeBinding Light='ghostwhite', Dark={StaticResource OffBlack}}">
+
+    <ContentPage.Resources>
+        <local:ColorStringToBrushConverter x:Key="ColorStringToBrushConverter" />
+    </ContentPage.Resources>
+
+    <AbsoluteLayout>
+
+        <!-- Content Area -->
+        <ScrollView AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1">
+            <VerticalStackLayout Spacing="20" Padding="20">
+                <FlexLayout Wrap="Wrap" HorizontalOptions="FillAndExpand" JustifyContent="SpaceAround">
+                    <Label Text="{Binding CurrentNote.Title}"
+                           FontSize="Large"
+                           ToolTipProperties.Text="Title of the note"
+                           HorizontalOptions="Center"
+                           VerticalOptions="FillAndExpand"
+                           FlexLayout.Grow="1"
+                           FlexLayout.Shrink="0"/>
+                    <Label Text="{Binding CurrentNote.Date}"
+                           VerticalOptions="CenterAndExpand"
+                           FontSize="Small"
+                           FlexLayout.Grow="0"
+                           FlexLayout.Shrink="1"
+                           ToolTipProperties.Text="{Binding DateUpdate, StringFormat='Latest update : {0}'}"/>
+                </FlexLayout>
+                <BoxView HeightRequest="3" BackgroundColor="{Binding CurrentNote.Color}" HorizontalOptions="FillAndExpand"/>
+
+                <Label Text="{Binding CurrentNote.Text}"
+                       Padding="50,0"
+                       FontSize="Medium"
+                       ToolTipProperties.Text="Content of the note"/>
+            </VerticalStackLayout>
+        </ScrollView>
+
+
+
+        <Button Text="✏️ Edit"
+                AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"
+                AbsoluteLayout.LayoutBounds="0.05,0.99,-1,-1" 
+                HorizontalOptions="Start"
+                               BackgroundColor="{Binding CurrentNote.Color}"
+                 TextColor="{Binding TextColor}"
+                Clicked="Edit"
+                VerticalOptions="End">
+            <Button.Shadow>
+                <Shadow Brush="{AppThemeBinding Light='gray', Dark='black'}"
+    Offset="5,5"
+    Radius="10"
+    Opacity="0.8" />
+            </Button.Shadow>
+        </Button>
+
+        <Button Text="🗑️ Delete"
+                AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"
+                AbsoluteLayout.LayoutBounds="0.95,0.99,-1,-1" 
+                Clicked="Delete"
+                BackgroundColor="{Binding CurrentNote.Color}"
+                TextColor="{Binding TextColor}"
+                HorizontalOptions="End"
+                VerticalOptions="End">
+            <Button.Shadow>
+                <Shadow Brush="{AppThemeBinding Light='gray', Dark='black'}"
+    Offset="5,5"
+    Radius="10"
+    Opacity="0.8" />
+            </Button.Shadow>
+        </Button>
+
+        <Button Text="←"
+                AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional, YProportional"
+                AbsoluteLayout.LayoutBounds="0,0.5,-1,-1"
+                Clicked="Previous"
+                HorizontalOptions="Start"
+                BackgroundColor="Transparent"
+                FontSize="Large"
+                TextColor="{AppThemeBinding Light='black', Dark='white'}"
+                VerticalOptions="Center"/>
+
+        <Button Text="→"
+                AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional, YProportional"
+                AbsoluteLayout.LayoutBounds="1,0.5,-1,-1"
+                Clicked="Next"
+                HorizontalOptions="End"
+                BackgroundColor="Transparent"
+                FontSize="Large"
+                TextColor="{AppThemeBinding Light='black', Dark='white'}"
+                VerticalOptions="Center"/>
+
+        <Grid ColumnDefinitions="*,*,*" RowDefinitions="*"
+            AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional, YProportional"
+            AbsoluteLayout.LayoutBounds="0.99,0.99,-1,-1"
+            HorizontalOptions="End"
+            BackgroundColor="Transparent"
+            VerticalOptions="Center">
+            <Label Text="{Binding Index}"
+                   FontSize="Medium"/>
+            <Label Text="/"
+                   Grid.Column="1"
+       FontSize="Medium"/>
+            <Label Text="{Binding Mgr.Notes.Count}"
+                   Grid.Column="2"
+       FontSize="Medium"/>
+
+        </Grid>
+     
+    </AbsoluteLayout>
+
+</ContentPage>

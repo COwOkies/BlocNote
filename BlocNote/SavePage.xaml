@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlocNote.SavePage"
+             Title="SavePage"
+             Shell.NavBarIsVisible="False">
+
+    <VerticalStackLayout Spacing="20" Padding="20,20,20,0">
+        <Label Text="🌐💾 Online Saves" FontSize="Large" HorizontalOptions="Center"></Label>
+        <BoxView HeightRequest="3" BackgroundColor="salmon" HorizontalOptions="FillAndExpand"/>
+        <Label Text="🤖 Discord bot token" FontSize="Medium" ></Label>
+        <Entry Text="{Binding Token}"
+        Placeholder="Discord bot token"
+               IsPassword="True"
+    ></Entry>
+
+        <Label Text="💬 Discord channel" FontSize="Medium"></Label>
+        <Entry Text="{Binding ChannelID}"
+            Placeholder="Discord channel">
+        </Entry>
+
+        <Button
+            Text="💾 Save credentials"
+            Clicked="SaveCreds"
+            MaximumWidthRequest="500"
+            BackgroundColor="DarkSalmon"
+            />
+
+
+        <Grid ColumnDefinitions="*,*" RowDefinitions="*,*" ColumnSpacing="20" RowSpacing="20">
+            <Button
+            Text="⬆️ Upload"
+            Clicked="Upload"
+                BackgroundColor="Salmon"
+            />
+            <Button 
+                Grid.Column="1"
+            Text="⬇️ Download"
+            Clicked="Download"
+                BackgroundColor="Salmon"
+            />
+            <ActivityIndicator x:Name="URunning" IsRunning="false" Grid.Row="1" />
+            <ActivityIndicator x:Name="DRunning" IsRunning="false" Grid.Row="1" Grid.Column="1"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

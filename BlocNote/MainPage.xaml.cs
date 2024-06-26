@@ -3,6 +3,8 @@ using BlocNoteLib;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Globalization;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 
@@ -51,11 +53,21 @@ namespace BlocNote
             MessagingCenter.Subscribe<NewNote>(this, "SaveAndFilter", (sender) =>
             {
                 FilterNotes();
-                Mgr.SaveResult();
+                Mgr.SaveNotes();
             });
             MessagingCenter.Subscribe<EditNote>(this, "SaveAndFilter", (sender) =>
             {
-                Mgr.SaveResult();
+                Mgr.SaveNotes();
+            });
+            MessagingCenter.Subscribe<SavePage>(this, "SaveAndFilter", (sender) =>
+            {
+                FilterNotes();
+                Mgr.SaveNotes();
+            });
+            MessagingCenter.Subscribe<OpenNote>(this, "SaveAndFilter", (sender) =>
+            {
+                FilterNotes();
+                Mgr.SaveNotes();
             });
 
             FilterNotes();
@@ -78,21 +90,28 @@ namespace BlocNote
             await Navigation.PushAsync(new NewNote());
         }
 
-        private void NewNoteFast(object sender, EventArgs e)
+        async private void GoToSavePage(object sender, EventArgs e)
         {
-            if (Mgr.notes.Count > 0)
-                Mgr.notes.Insert(0, new Note("title", "text"));
-            else
-                Mgr.notes.Add(new Note("title", "text"));
-            FilterNotes();
-
-            Mgr.SaveResult();
+            await Navigation.PushAsync(new SavePage());
+        }
+        async private void OpenNote(object sender, EventArgs e)
+        {
+            Note note = (sender as Button)?.CommandParameter as Note;
+            if (note != null)
+            {
+                
+                int index = Mgr.Notes.IndexOf(note);
+                if (index >= 0)
+                {
+                    await Navigation.PushAsync(new OpenNote(index));
+                }
+            }
         }
 
         async private void EditNote(object sender, EventArgs e)
         {
-            var button = sender as Button;
-            var note = button?.CommandParameter as Note;
+            Note note = ((MenuItem)sender)?.CommandParameter as Note;
+            
             if (note != null)
             {
                 int index = Mgr.Notes.IndexOf(note);
@@ -103,20 +122,27 @@ namespace BlocNote
             }
         }
 
-        private void DeleteNote(object sender, EventArgs e)
+        async private void DeleteNote(object sender, EventArgs e)
         {
-            var button = sender as Button;
-            var note = button?.CommandParameter as Note;
+            Note note = ((MenuItem)sender)?.CommandParameter as Note;
+
             if (note != null)
             {
-                int index = Mgr.Notes.IndexOf(note);
-                if (index >= 0)
+                bool choice = await DisplayAlert("Question", "❓ Do you want to proceed?", "✔️ Yes", "❌ No");
+
+                if (choice)
                 {
-                    Mgr.Notes.RemoveAt(index);
+                    int index = Mgr.Notes.IndexOf(note);
+                    if (index >= 0)
+                    {
+                        Mgr.Notes.RemoveAt(index);
+                        Mgr.SaveNotes();
+                        FilterNotes();
+                    }
                 }
+                
             }
-            Mgr.SaveResult();
-            FilterNotes();
+
         }
     }
 

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlocNote", "BlocNote\BlocNo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlocNoteLib", "BlocNoteLib\BlocNoteLib.csproj", "{921EDF65-9C3F-4177-A131-13DC42E3FCC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscordLib", "DiscordLib\DiscordLib.csproj", "{890FABDB-2BAB-46DF-A3E2-E5CA9C72E6EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{921EDF65-9C3F-4177-A131-13DC42E3FCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{921EDF65-9C3F-4177-A131-13DC42E3FCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{921EDF65-9C3F-4177-A131-13DC42E3FCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890FABDB-2BAB-46DF-A3E2-E5CA9C72E6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890FABDB-2BAB-46DF-A3E2-E5CA9C72E6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890FABDB-2BAB-46DF-A3E2-E5CA9C72E6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890FABDB-2BAB-46DF-A3E2-E5CA9C72E6EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

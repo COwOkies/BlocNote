@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7mFlpZ0/m3TmLh/egRYe2km1TJOaJ+busDW5pqNLk7goOpk3ZmU2nAvVJc1HV0hplkbQIxXblL7vVmHz8Emjmw==",
+  "dgSpecHash": "Lk4acOXHjQCok/7NGscgyRQbQettgl8EmvT94/COF9ri3v9eGzzGucAhk91ZMiO4Q2ucI6wPqdnNiTZU0JmymQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Cookie\\source\\repos\\BlocNoteSol\\BlocNoteLib\\BlocNoteLib.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Cookie\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Cookie\\.nuget\\packages\\system.runtime.windowsruntime\\4.7.0\\system.runtime.windowsruntime.4.7.0.nupkg.sha512",
+    "C:\\Users\\Cookie\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.7.0\\system.runtime.windowsruntime.ui.xaml.4.7.0.nupkg.sha512",
+    "C:\\Users\\Cookie\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

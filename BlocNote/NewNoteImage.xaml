@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlocNote.NewNoteImage"
+             Title="NewNoteImage">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20,20,20,0">
+            <Label Text="➕ Create note" FontSize="Large" HorizontalOptions="Center"></Label>
+            <Label Text="Title :" FontSize="Medium" ></Label>
+            <Entry Text="{Binding NoteTitle}"
+               Placeholder="Title"
+           ></Entry>
+
+            <Label Text="Text :" FontSize="Medium"></Label>
+            <Editor Text="{Binding NoteText}"
+               Placeholder="Text"
+               AutoSize="TextChanges"
+           ></Editor>
+
+            <Picker x:Name="picker"
+               Title="Select a color"
+               ItemsSource="{Binding Mgr.ColorList}"
+               SelectedItem="{Binding Color}">
+            </Picker>
+
+            <Button Text="file picker"
+                   Clicked="OpenFile"></Button>
+
+            <CarouselView ItemsSource="{Binding Pictures}" x:Name="MyCarouselView" HeightRequest="200">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Image Source="{Binding}" 
+                          HeightRequest="200"
+                          HorizontalOptions="Center"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+
+            <Button
+               Text="Create"
+               Clicked="AddNote"
+           />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

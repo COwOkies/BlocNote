@@ -9,6 +9,8 @@
     <Color x:Key="Primary">Orange</Color>
     <Color x:Key="PrimaryDark">DarkOrange</Color>
     <Color x:Key="PrimaryDarkText">#242424</Color>
+    <Color x:Key="Background">ghostwhite</Color>
+    <Color x:Key="BackgroundDark">#242424</Color>
     <Color x:Key="Secondary">#DFD8F7</Color>
     <Color x:Key="SecondaryDarkText">#9880e5</Color>
     <Color x:Key="Tertiary">#2B0B98</Color>
